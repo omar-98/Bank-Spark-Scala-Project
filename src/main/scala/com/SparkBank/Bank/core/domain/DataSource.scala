@@ -7,11 +7,11 @@ trait DataSource {
 }
 
 case class RawDataSource(businessUnit: String ,backend: String ) extends DataSource {
-  override def getPath: String = "/raw"
+  override def getPath: String = "src/test/scala/SparkBank/Bank/data/raw"
 }
 case class SilverDataSource(businessUnit: String ,backend: String ) extends DataSource {
-  override def getPath: String = "/silver"
+  override def getPath: String = "src/test/scala/SparkBank/Bank/data/silver"
 }
 case class GoldDataSource(businessUnit: String ,backend: String ) extends DataSource {
-  override def getPath: String = "/gold"
+  override def getPath: String = "src/test/scala/SparkBank/Bank/data/gold"
 }

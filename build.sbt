@@ -13,5 +13,5 @@ libraryDependencies += "org.scalatest" %% "scalatest" % "3.2.17" % Test
 
 lazy val root = (project in file("."))
   .settings(
-    name := "bank-spar-scala-project"
+    name := "bank-spark-scala-project"
   )

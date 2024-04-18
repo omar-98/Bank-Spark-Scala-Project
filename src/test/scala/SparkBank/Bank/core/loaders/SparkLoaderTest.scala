@@ -1,8 +1,8 @@
 package SparkBank.Bank.core.loaders.S
 import SparkBank.Bank.core.domain.TestNotreData
-import com.SparkBank.Bank.core.SparkApplication
 import com.SparkBank.Bank.core.domain.RawDataSource
 import com.SparkBank.Bank.core.loaders.SparkLoader
+import com.SparkBank.Bank.core.utils.SparkApplication
 import org.apache.spark.sql.DataFrame
 import org.scalatest.PrivateMethodTester
 import org.scalatest.flatspec.AnyFlatSpec

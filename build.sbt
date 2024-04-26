@@ -11,7 +11,7 @@ libraryDependencies += "org.apache.spark" %% "spark-core" % sparkVersion
 libraryDependencies += "org.apache.spark" %% "spark-sql"  % sparkVersion
 libraryDependencies +="com.github.pureconfig" %% "pureconfig"% "0.16.0"
 libraryDependencies += "org.scalatest" %% "scalatest" % "3.2.17" % Test
-libraryDependencies +="com.typesafe" % "config" % "1.2.0"
+libraryDependencies +="com.typesafe" % "config" % "1.2.1"
 
 
 lazy val root = (project in file("."))

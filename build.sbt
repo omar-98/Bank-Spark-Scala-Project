@@ -5,6 +5,9 @@ ThisBuild / scalaVersion := "2.13.13"
 val sparkVersion = "3.5.0"
 
 
+v2
+
+
 
 // Spark
 libraryDependencies += "org.apache.spark" %% "spark-core" % sparkVersion
